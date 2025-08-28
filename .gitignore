@@ -2,3 +2,4 @@
 _local/
 dist/
 node_modules/
+jest-mock-exports-*.tgz
