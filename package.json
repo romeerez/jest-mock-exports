@@ -1,0 +1,45 @@
+{
+  "name": "jest-mock-exports",
+  "version": "0.1.0",
+  "description": "Easy mocking of exported functions and objects in Jest",
+  "author": "Roman Kushyn <romadzao@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/romeerez/jest-mock-exports.git"
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./jest.runtime": {
+      "require": "./dist/jest.runtime.js",
+      "types": "./dist/jest.runtime.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsdown",
+    "dev": "tsdown --watch",
+    "test": "jest",
+    "types": "tsc"
+  },
+  "devDependencies": {
+    "@swc/jest": "^0.2.39",
+    "@types/jest": "^30.0.0",
+    "jest": "^30.1.1",
+    "tsdown": "latest",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "jest-runtime": ">=20.0.0"
+  },
+  "keywords": [
+    "jest",
+    "testing",
+    "mock",
+    "mocks"
+  ]
+}
