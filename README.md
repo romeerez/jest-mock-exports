@@ -61,7 +61,7 @@ Add to `jest.config.ts` (or `.js`) in the root:
 import type { Config } from "jest";
 
 const config: Config = {
-    runtime: 'jest-mock-exports',
+    runtime: 'jest-mock-exports/jest.runtime',
 };
 
 export default config;
