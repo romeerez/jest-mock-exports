@@ -1,6 +1,6 @@
 {
   "name": "jest-mock-exports",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Easy mocking of exported functions and objects in Jest",
   "author": "Roman Kushyn <romadzao@gmail.com>",
   "license": "MIT",
